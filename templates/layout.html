@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>meta-box</title>
+		<link href="/www/css/meta-box.css" type="text/css" rel="stylesheet"> 
+
+		<link rel="shortcut icon" href="/www/images/favicon.ico">
+
+		<script src="http://www.google.com/jsapi?key=ABQIAAAAZtL9hczjXLiXscEfuJvv9RSveiXsxkYplXqrGKBHv6bUFfsBbBTmqiVYCGo5fyb5V-85F1iT5N1-LA" type="text/javascript"></script>
+		<script language="Javascript" type="text/javascript">
+			google.load("jquery", "1.4.2");
+			google.load("jqueryui", "1.8.0");
+		</script>
+		<script type="text/javascript" src="/www/js/meta-box.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			{% block content %}default{% endblock %}
+		</div>
+	</body>
+
+</html>

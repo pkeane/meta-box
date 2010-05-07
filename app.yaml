@@ -1,0 +1,11 @@
+application: meta-box 
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /www
+  static_dir: www 
+
+- url: .*
+  script: meta-box.py
